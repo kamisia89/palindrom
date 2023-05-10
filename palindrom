@@ -3,3 +3,8 @@ ef is_Palindrome(s):
     l = len(s)
     if l < 2:
         return True
+    elif s[0] == s[l - 1]:
+        return is_Palindrome(s[1: l - 1])
+    else:
+        return False
+s = "kajak"
