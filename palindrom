@@ -1,0 +1,5 @@
+ef is_Palindrome(s):
+    s = s.lower()
+    l = len(s)
+    if l < 2:
+        return True
